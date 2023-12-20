@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.divider-neutral-500 {
+	@apply before:bg-neutral-500 after:bg-neutral-500;
+}
